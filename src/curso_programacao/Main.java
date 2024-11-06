@@ -31,47 +31,47 @@ public class Main {
 		switch (operation) {
 		
 		case 1:
-			System.out.println("Digite o x e y:");
+			System.out.println("Write the x and y:");
 			x = sc.nextDouble();
 			y = sc.nextDouble();
 			result = x + y;
-			System.out.println("Resultado = " + result);
+			System.out.println("Result = " + result);
 			break;
 			
 		case 2:
-			System.out.println("Digite o x e y:");
+			System.out.println("Write the x and y:");
 			x = sc.nextDouble();
 			y = sc.nextDouble();
 			result = x - y;
-			System.out.println("Resultado = " + result);
+			System.out.println("Result = " + result);
 			break;
 			
 		case 3:
-			System.out.println("Digite o x e y:");
+			System.out.println("Write the x and y:");
 			x = sc.nextDouble();
 			y = sc.nextDouble();
 			result = x / y;
 			if (x == 0 || y == 0) { 
-				System.out.println("Operação inválida.");
+				System.out.println("Invalid operation.");
 			} else {
-			System.out.println("Resultado = " + result);
+			System.out.println("Result = " + result);
 			}
 			break;
 			
 		case 4:
-			System.out.println("Digite o x e y:");
+			System.out.println("Write the x and y:");
 			x = sc.nextDouble();
 			y = sc.nextDouble();
 			result = x * y;
 			if (x == 0 || y == 0) { 
-				System.out.println("Operação inválida.");
+				System.out.println("Invalid operation.");
 			} else {
-			System.out.println("Resultado = " + result);
+			System.out.println("Result = " + result);
 			}
 			break;
 			
 		case 5:
-			System.out.println("Adeus!");
+			System.out.println("Goodbye!");
 			break;
 		}
 		
